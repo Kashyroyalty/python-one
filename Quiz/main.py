@@ -2,10 +2,10 @@
 for n in range(1, 101):
 
     if n % 3==0 and n % 5==0:
-        print("Fizzbuzz")
+        print(n,"Fizzbuzz")
     elif n % 3==0:
-        print("fizz")
+        print(n,"fizz")
     elif n % 5==0:
-        print("Buzz")
+        print(n,"Buzz")
     else:
          print(n)
